@@ -1,0 +1,13 @@
+name: Slider
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Slider Title
+      example:
+        - 'My carousel'
+slots:
+  slides: Slides
+  description: Content that overrides the slides in the carousel.
+
