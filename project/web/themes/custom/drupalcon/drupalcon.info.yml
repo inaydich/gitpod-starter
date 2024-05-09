@@ -7,6 +7,7 @@ libraries:
   - drupalcon/base
   - drupalcon/messages
   - core/normalize
+  - drupalcon/font
   - drupalcon/tailwindcss
 libraries-extend:
   user/drupal.user:

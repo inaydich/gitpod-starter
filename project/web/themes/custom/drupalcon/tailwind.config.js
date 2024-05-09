@@ -5,7 +5,11 @@ module.exports = {
     './dummyclasses.css'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'brem-hand': '"Briem Hand", cursive'
+      }
+    },
   },
   plugins: [],
 }

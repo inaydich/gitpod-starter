@@ -107,3 +107,8 @@ tailwindcss:
   css:
     base:
       dist/css/output.css: {}
+
+font:
+  css:
+    base:
+      https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet: {}
