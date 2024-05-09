@@ -8,6 +8,17 @@ props:
       example:
         - 'My carousel'
 slots:
-  slides: Slides
-  description: Content that overrides the slides in the carousel.
+  slides:
+    title: Slides
+    description: Content that overrides the slides in the carousel.
+
+libraryOverrides:
+  css:
+    component:
+      //cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css: {}
+      slider.css: {}
+  js: 
+    //cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js: {}
+    slider.js: {}
+
 
