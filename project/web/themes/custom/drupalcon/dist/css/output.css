@@ -632,9 +632,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.swiper {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
-}
+/* .swiper {
+    @apply text-red-900 py-20;
+} */
